@@ -7,7 +7,7 @@ test("spies test", () => {
     }
 
     const spy = jest.spyOn(video, 'play')
-    
+
     video.play()
 
     expect(spy).toHaveBeenCalled();
